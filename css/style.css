@@ -73,7 +73,7 @@ header {
 .header .bonus__text {
   position: absolute;
   top: 48px;
-  left: 1097px;
+  left: 1500px;
 }
 .header .bonus__text h1 {
   font-size: 18px;
@@ -143,9 +143,112 @@ header {
   align-items: center;
 }
 
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 61px;
+}
+.banner-slide {
+  margin: 10px;
+}
+
+.right {
+  width: 562px;
+}
+.right__slider1 {
+  width: 562px;
+  height: 173px;
+  background-color: #293747;
+  border-radius: 10px;
+}
+.right__slider2 {
+  width: 562px;
+  height: 173px;
+  background-color: #293747;
+  border-radius: 15px;
+}
+.right__slider3 {
+  width: 562px;
+  height: 173px;
+  background-color: #293747;
+  border-radius: 15px;
+}
+
+.left {
+  width: 700px;
+}
+.left__slider1 {
+  background-image: url("../img/frends.png");
+  width: 173px;
+  height: 173px;
+  background-position: center;
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  margin: 0 15px;
+  border-radius: 10px;
+}
+.left__slider2 {
+  background-image: url("../img/napit.png");
+  width: 173px;
+  height: 173px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #FFFFFF;
+  margin: 0 15px;
+  border-radius: 10px;
+}
+.left__slider3 {
+  background-image: url("../img/bodyrepair.png");
+  width: 173px;
+  height: 173px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #FFFFFF;
+  margin: 0 15px;
+  border-radius: 10px;
+}
+.left__slider4 {
+  background-image: url("../img/frends.png");
+  width: 173px;
+  height: 173px;
+  background-position: center;
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  margin: 0 15px;
+  border-radius: 10px;
+}
+.left__slider5 {
+  width: 173px;
+  height: 173px;
+  background-image: url("../img/frends.png");
+  background-position: center;
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  margin: 0 15px;
+  border-radius: 10px;
+}
+.left__slider6 {
+  background-image: url("../img/frends.png");
+  width: 173px;
+  height: 173px;
+  background-position: center;
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  margin: 0 15px;
+  border-radius: 10px;
+}
+
 @media (max-width: 1280px) {
   .wrap {
     width: 1170px;
+  }
+
+  bonus__text {
+    position: absolute;
+    top: 48px;
+    left: 1097px;
   }
 }
 
