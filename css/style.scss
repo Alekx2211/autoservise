@@ -194,9 +194,6 @@ header {
     background-color: #FFFFFF;
     margin: 0 15px;
     border-radius: 10px;
-
-
-
   }
   &__slider3 {
     background-image: url("../img/bodyrepair.png");
@@ -242,10 +239,18 @@ header {
     border-radius: 10px;
   }
 }
+.calculation__raschet {
+  background: #fff;
+  width: 1338px;
+  border-radius: 10px;
+  padding: 10px 0 30px 11px;
+}
 select {
   width: 250px;
   height: 27px;
   border: 1px solid red;
+  margin-right: 67px;
+  border-radius: 5px;
 }
 label {
   margin-bottom: 25px;
@@ -289,6 +294,31 @@ label {
 }
 .img-files input {
   display: none;
+}
+.textarea {
+  outline: none;
+  color: #323232;
+  border-radius: 10px;
+ border: 1px solid #BC342D;
+  height: 121px;
+  width: 643px;
+  left: 307px;
+  top: 758px;
+  resize: none;
+}
+.text {
+  position: relative;
+  width: 643px;
+}
+.btn {
+  height: 28px;
+  width: 116px;
+  position: absolute;
+  bottom: 10px;
+  border-radius: 5px;
+  background-color: #BC342D;
+  right: 10px;
+  color: #FFFFFF;
 }
 @media (max-width: 1280px) {
   .wrap {
