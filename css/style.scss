@@ -10,9 +10,6 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #E5E5E5;
 }
-p {
-  margin: 0;
-}
 .menu-top {
   background-color: #4D4D4D;
   height: 30px;
@@ -239,17 +236,22 @@ header {
     border-radius: 10px;
   }
 }
-.calculation__raschet {
+.calculation {
   background: #fff;
-  width: 1338px;
   border-radius: 10px;
   padding: 10px 0 30px 11px;
+  display: flex;
+}
+form{
+  p {
+    font-size: 15px;
+  }
 }
 select {
   width: 250px;
   height: 27px;
   border: 1px solid red;
-  margin-right: 67px;
+  margin-right: 25px;
   border-radius: 5px;
 }
 label {
@@ -320,13 +322,46 @@ label {
   right: 10px;
   color: #FFFFFF;
 }
+.calculation__work {
+  .crug, .finish{
+    width: 40px;
+    height: 40px;
+    background-color: #293747;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 25%;
+    color: #FFFFFF;
+  }
+  .finish {
+    padding-top: 12px;
+  }
+  .line {
+    border-left: 2px solid #293747;
+    height: 29px;
+    margin-left: 50%;
+  }
+}
 @media (max-width: 1280px) {
   .wrap {
     width: 1170px;
   }
-  .bonus__text {
-    position: absolute;
-    top: 48px;
-    left: 1097px;
+  .header{
+    .bonus__text {
+      position: absolute;
+      top: 48px;
+      left: 1097px;
+    }
+  }
+
+  .right {
+    width: 500px;
+  }
+  .left {
+    width: 600px;
+  }
+  .calculation {
+    &__raschet {
+      width: 100%;
+    }
   }
 }
