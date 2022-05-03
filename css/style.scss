@@ -322,9 +322,18 @@ label {
   right: 10px;
   color: #FFFFFF;
 }
-.calculation__work {
+.calculation__raschet {
+  padding-right: 20px;
+}
+.work {
   position: relative;
-  padding-right: 380px;
+  padding-right: 606px;
+  margin-top: 15px;
+}
+.calculation__work {
+  h1 {
+    font-size: 18px;
+  }
   .crug, .finish{
     width: 40px;
     height: 40px;
@@ -370,9 +379,17 @@ label {
   margin-top: 50px;
 }
 .offers {
+  text-align: right;
+  p {
+    font-size: 13px;
+    padding-right: 8px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 8px;
+  }
   &__slide1{
     width: 174px;
-    height: 277px;
+    height: 227px;
     background-color: #F39C4C;
     border-radius: 10px;
     background-image: url("../img/oil.png");
@@ -381,7 +398,7 @@ label {
   }
   &__slide2{
     width: 174px;
-    height: 277px;
+    height: 227px;
     background-color: #E74C3C;
     border-radius: 10px;
     background-image: url("../img/automig.png");
@@ -390,7 +407,7 @@ label {
   }
   &__slide3{
     width: 174px;
-    height: 277px;
+    height: 227px;
     background-color: #5ABF80;
     border-radius: 10px;
     background-image: url("../img/diagnostic.png");
@@ -399,7 +416,7 @@ label {
   }
   &__slide4{
     width: 174px;
-    height: 277px;
+    height: 227px;
     background-color: #3192D9;
     border-radius: 10px;
     background-image: url("../img/instal.png");
@@ -408,7 +425,7 @@ label {
   }
   &__slide5{
     width: 174px;
-    height: 277px;
+    height: 227px;
     background-color: #D3A11E;
     border-radius: 10px;
     background-image: url("../img/polirovka.png");
@@ -417,7 +434,7 @@ label {
   }
   &__slide6{
     width: 174px;
-    height: 277px;
+    height: 227px;
     background-color: #5B5FC8;
     border-radius: 10px;
     background-image: url("../img/paint.png");
@@ -426,7 +443,7 @@ label {
   }
   &__slide7{
     width: 174px;
-    height: 277px;
+    height: 227px;
     background-color: #BB41A0;
     border-radius: 10px;
     background-image: url("../img/glushiteli.png");
