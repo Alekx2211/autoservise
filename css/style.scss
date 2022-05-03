@@ -486,6 +486,72 @@ label {
   background: linear-gradient(180deg, rgba(187, 65, 160, 0) 0%, #BB41A0 100%);
   margin-top: 142px;
 }
+.services {
+  &__uslugi {
+    display: flex;
+    margin-top: 22px;
+    .uslugi {
+      width: 174px;
+      height: 174px;
+      background-color: #FFFFFF;
+      background-image: url("../img/vector.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 10px;
+      margin-right: 20px;
+      text-align: center;
+      padding-top: 125px;
+      margin-top: 10px;
+      background-position-y: 27px;
+    }
+  }
+}
+.popular {
+  &__ser{
+    width: 659px;
+    height: 184px;
+    background-color: #fff;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+}
+.section-popular {
+  margin-top: 95px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  h1{
+    font-size: 18px;
+    color: red;
+  }
+  p{
+    font-size: 14px;
+  }
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+.rating__item {
+  font-size: 20px;
+  color: #d2d6d9;
+  cursor: pointer;
+}
+.rating__item:hover,
+.rating__item:hover ~ .rating__item {
+  color: #BC342D;
+}
+
+.rating[data-total-value="1"] .rating__item:nth-child(n+5),
+.rating[data-total-value="2"] .rating__item:nth-child(n+4),
+.rating[data-total-value="3"] .rating__item:nth-child(n+3),
+.rating[data-total-value="4"] .rating__item:nth-child(n+2),
+.rating[data-total-value="5"] .rating__item:nth-child(n+1) {
+  color: #BC342D;
+}
+
 @media (max-width: 1280px) {
   .wrap {
     width: 1170px;
