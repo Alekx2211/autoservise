@@ -73,7 +73,7 @@ header {
     &__text {
       position: absolute;
       top: 48px;
-      left: 1500px;
+      left: 1491px;
       h1 {
         font-size: 18px;
         font-weight: 700;
@@ -144,10 +144,13 @@ header {
 .banner {
   display: flex;
   justify-content: space-between;
-  margin-top: 61px;
+  margin-top: 50px;
   &-slide {
     margin: 10px ;
   }
+}
+.section-banner{
+  margin-bottom: 49px;
 }
 .right {
   width: 562px;
@@ -156,6 +159,13 @@ header {
     height: 173px;
     background-color: #293747;
     border-radius: 10px;
+    p{
+      color: #fff;
+      padding-left: 15px;
+      font-weight: 300;
+      padding-top: 10px;
+      font-size: 18px;
+    }
   }
   &__slider2 {
     width: 562px;
@@ -244,6 +254,8 @@ header {
   border-radius: 10px;
   padding: 10px 0 30px 11px;
   display: flex;
+  height: 437px;
+  margin-top: 20px;
 }
 form{
   p {
@@ -252,8 +264,17 @@ form{
     line-height: 16px;
     letter-spacing: 0em;
     text-align: left;
-
+    padding-left: 5px;
+    padding-bottom: 8px;
   }
+}
+.marka, .rem, .foto {
+  margin-top: 15px;
+}
+.img {
+  margin-left: 6px;
+  padding-left: 13px;
+  margin-bottom: 15px;
 }
 select {
   width: 250px;
@@ -263,9 +284,9 @@ select {
   border-radius: 5px;
 }
 label {
-  margin-bottom: 25px;
-  margin-right: 20px;
-  padding-left: 20px;
+  margin-bottom: 16px;
+  margin-right: 10px;
+  padding-left: 25px;
 }
 .radio-box{
  display: none;
@@ -319,6 +340,7 @@ label {
 .text {
   position: relative;
   width: 643px;
+  margin-left: 5px;
 }
 .btn {
   height: 28px;
@@ -355,7 +377,7 @@ label {
     position: absolute;
     top: 0;
     right: 10px;
-    margin-left: 50px;
+    margin-left: 52px;
     padding: 0;
     margin-top: 0;
   }
@@ -363,28 +385,31 @@ label {
   top: 60px;
 }
   .two{
-    top: 130px;
+    top: 120px;
   }
   .there {
-    top: 200px;
+    top: 180px;
   }
   .four {
-    top: 270px;
+    top: 236px;
   }
   .five {
-    top: 350px;
+    top: 307px;
   }
   .finish {
     padding-top: 12px;
   }
   .line {
     border-left: 2px solid #293747;
-    height: 29px;
+    height: 22px;
     margin-left: 50%;
   }
 }
 .section-offers {
   margin-top: 50px;
+  h1 {
+    margin-bottom: 10px;
+  }
 }
 .offers {
   text-align: right;
@@ -429,7 +454,7 @@ label {
     border-radius: 10px;
     background-image: url("../img/instal.png");
     background-repeat: no-repeat;
-    margin-left: 25px;
+    margin-left: 21px;
   }
   &__slide5{
     width: 174px;
@@ -438,7 +463,7 @@ label {
     border-radius: 10px;
     background-image: url("../img/polirovka.png");
     background-repeat: no-repeat;
-    margin-left: 25px;
+    margin-left: 21px;
   }
   &__slide6{
     width: 174px;
@@ -456,7 +481,7 @@ label {
     border-radius: 10px;
     background-image: url("../img/glushiteli.png");
     background-repeat: no-repeat;
-    margin-left: 25px;
+    margin-left: 19px;
   }
 }
 .gradient {
@@ -494,10 +519,17 @@ label {
   background: linear-gradient(180deg, rgba(187, 65, 160, 0) 0%, #BB41A0 100%);
   margin-top: 142px;
 }
+.section-services {
+  margin-top: 65px;
+}
 .services {
+  h1{
+    margin-bottom: 40px;
+  }
   &__uslugi {
     display: flex;
-    margin-top: 22px;
+    margin-top: 11px;
+
     .uslugi {
       width: 174px;
       height: 174px;
@@ -509,7 +541,7 @@ label {
       margin-right: 20px;
       text-align: center;
       padding-top: 125px;
-      margin-top: 10px;
+      margin-top: 11px;
       background-position-y: 27px;
     }
   }
@@ -524,24 +556,30 @@ label {
   }
 }
 .section-popular {
-  margin-top: 95px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  h1 {
+  }
 }
 .top {
   display: flex;
   align-items: center;
   height: 50px;
+
   h1{
     font-size: 18px;
     color: red;
   }
   p{
     font-size: 14px;
+    padding-left: 240px;
   }
 }
 .rating {
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
+  padding-left: 15px;
 }
 .rating__item {
   font-size: 40px;
@@ -602,7 +640,6 @@ label {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 93px;
   &__history {
     width: 659px;
     left: 291px;
@@ -641,6 +678,39 @@ label {
     font-size: 12px;
     color: #BC342D;
 
+  }
+}
+.percent {
+  background-color: #E74C3C;
+  width: 131px;
+  height: 70px;
+  border-radius: 0 10px 0 10px;
+  padding-top: 10px;
+  color: #FFFFFF;
+  font-size: 48px;
+  text-align: center;
+}
+.top3 {
+  display: flex;
+  justify-content: space-between;
+  h1 {
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #fff;
+  }
+}
+.bottom3 {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding-top: 10px;
+  p{
+    font-size: 16px;
+  }
+  a {
+    color:#FFFFFF ;
+    font-weight: 500;
+    padding-right: 10px;
   }
 }
 @media (max-width: 1280px) {

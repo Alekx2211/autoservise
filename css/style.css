@@ -81,7 +81,7 @@ header {
 .header .bonus__text {
   position: absolute;
   top: 48px;
-  left: 1500px;
+  left: 1491px;
 }
 .header .bonus__text h1 {
   font-size: 18px;
@@ -154,10 +154,14 @@ header {
 .banner {
   display: flex;
   justify-content: space-between;
-  margin-top: 61px;
+  margin-top: 50px;
 }
 .banner-slide {
   margin: 10px;
+}
+
+.section-banner {
+  margin-bottom: 49px;
 }
 
 .right {
@@ -168,6 +172,13 @@ header {
   height: 173px;
   background-color: #293747;
   border-radius: 10px;
+}
+.right__slider1 p {
+  color: #fff;
+  padding-left: 15px;
+  font-weight: 300;
+  padding-top: 10px;
+  font-size: 18px;
 }
 .right__slider2 {
   width: 562px;
@@ -253,6 +264,8 @@ header {
   border-radius: 10px;
   padding: 10px 0 30px 11px;
   display: flex;
+  height: 437px;
+  margin-top: 20px;
 }
 
 form p {
@@ -261,6 +274,18 @@ form p {
   line-height: 16px;
   letter-spacing: 0em;
   text-align: left;
+  padding-left: 5px;
+  padding-bottom: 8px;
+}
+
+.marka, .rem, .foto {
+  margin-top: 15px;
+}
+
+.img {
+  margin-left: 6px;
+  padding-left: 13px;
+  margin-bottom: 15px;
 }
 
 select {
@@ -272,9 +297,9 @@ select {
 }
 
 label {
-  margin-bottom: 25px;
-  margin-right: 20px;
-  padding-left: 20px;
+  margin-bottom: 16px;
+  margin-right: 10px;
+  padding-left: 25px;
 }
 
 .radio-box {
@@ -333,6 +358,7 @@ label {
 .text {
   position: relative;
   width: 643px;
+  margin-left: 5px;
 }
 
 .btn {
@@ -372,7 +398,7 @@ label {
   position: absolute;
   top: 0;
   right: 10px;
-  margin-left: 50px;
+  margin-left: 52px;
   padding: 0;
   margin-top: 0;
 }
@@ -380,28 +406,31 @@ label {
   top: 60px;
 }
 .calculation__work .two {
-  top: 130px;
+  top: 120px;
 }
 .calculation__work .there {
-  top: 200px;
+  top: 180px;
 }
 .calculation__work .four {
-  top: 270px;
+  top: 236px;
 }
 .calculation__work .five {
-  top: 350px;
+  top: 307px;
 }
 .calculation__work .finish {
   padding-top: 12px;
 }
 .calculation__work .line {
   border-left: 2px solid #293747;
-  height: 29px;
+  height: 22px;
   margin-left: 50%;
 }
 
 .section-offers {
   margin-top: 50px;
+}
+.section-offers h1 {
+  margin-bottom: 10px;
 }
 
 .offers {
@@ -448,7 +477,7 @@ label {
   border-radius: 10px;
   background-image: url("../img/instal.png");
   background-repeat: no-repeat;
-  margin-left: 25px;
+  margin-left: 21px;
 }
 .offers__slide5 {
   width: 174px;
@@ -457,7 +486,7 @@ label {
   border-radius: 10px;
   background-image: url("../img/polirovka.png");
   background-repeat: no-repeat;
-  margin-left: 25px;
+  margin-left: 21px;
 }
 .offers__slide6 {
   width: 174px;
@@ -475,7 +504,7 @@ label {
   border-radius: 10px;
   background-image: url("../img/glushiteli.png");
   background-repeat: no-repeat;
-  margin-left: 25px;
+  margin-left: 19px;
 }
 
 .gradient {
@@ -520,9 +549,16 @@ label {
   margin-top: 142px;
 }
 
+.section-services {
+  margin-top: 65px;
+}
+
+.services h1 {
+  margin-bottom: 40px;
+}
 .services__uslugi {
   display: flex;
-  margin-top: 22px;
+  margin-top: 11px;
 }
 .services__uslugi .uslugi {
   width: 174px;
@@ -535,7 +571,7 @@ label {
   margin-right: 20px;
   text-align: center;
   padding-top: 125px;
-  margin-top: 10px;
+  margin-top: 11px;
   background-position-y: 27px;
 }
 
@@ -548,9 +584,9 @@ label {
 }
 
 .section-popular {
-  margin-top: 95px;
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
-
 .top {
   display: flex;
   align-items: center;
@@ -562,12 +598,14 @@ label {
 }
 .top p {
   font-size: 14px;
+  padding-left: 240px;
 }
 
 .rating {
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
+  padding-left: 15px;
 }
 
 .rating__item {
@@ -632,7 +670,6 @@ label {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 93px;
 }
 .blog__history {
   width: 659px;
@@ -671,6 +708,42 @@ label {
   text-decoration: none;
   font-size: 12px;
   color: #BC342D;
+}
+
+.percent {
+  background-color: #E74C3C;
+  width: 131px;
+  height: 70px;
+  border-radius: 0 10px 0 10px;
+  padding-top: 10px;
+  color: #FFFFFF;
+  font-size: 48px;
+  text-align: center;
+}
+
+.top3 {
+  display: flex;
+  justify-content: space-between;
+}
+.top3 h1 {
+  padding-top: 15px;
+  padding-left: 15px;
+  color: #fff;
+}
+
+.bottom3 {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.bottom3 p {
+  font-size: 16px;
+}
+.bottom3 a {
+  color: #FFFFFF;
+  font-weight: 500;
+  padding-right: 10px;
 }
 
 @media (max-width: 1280px) {
