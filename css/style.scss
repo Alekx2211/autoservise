@@ -544,7 +544,7 @@ label {
   flex-direction: row-reverse;
 }
 .rating__item {
-  font-size: 60px;
+  font-size: 40px;
   color: #d2d6d9;
   cursor: pointer;
 }
@@ -604,7 +604,6 @@ label {
   flex-wrap: wrap;
   margin-top: 93px;
   &__history {
-    height: 115px;
     width: 659px;
     left: 291px;
     top: 1956px;
@@ -622,6 +621,26 @@ label {
       font-size: 14px;
       font-weight: 300;
     }
+  }
+  .top1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  .bottom1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    p{
+      font-size: 12px;
+    }
+  }
+  a {
+    padding-left: 200px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #BC342D;
+
   }
 }
 @media (max-width: 1280px) {
