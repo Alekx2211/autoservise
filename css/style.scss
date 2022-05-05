@@ -524,7 +524,10 @@ label {
 }
 .services {
   h1{
-    margin-bottom: 40px;
+    margin-bottom: 21px;
+  }
+  &__select {
+    display: flex;
   }
   &__uslugi {
     display: flex;
@@ -712,6 +715,18 @@ label {
     font-weight: 500;
     padding-right: 10px;
   }
+}
+.fara, .marca, .model {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-right: 21px;
+}
+.mod, .marc, .far {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
 }
 @media (max-width: 1280px) {
   .wrap {
