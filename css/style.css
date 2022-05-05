@@ -294,6 +294,7 @@ select {
   border: 1px solid red;
   margin-right: 25px;
   border-radius: 5px;
+  margin-top: 10px;
 }
 
 label {
@@ -761,6 +762,36 @@ label {
   margin: 0;
   font-size: 14px;
   font-weight: 600;
+}
+
+.text1 {
+  display: flex;
+  margin-top: 10px;
+}
+
+.section-about {
+  margin-top: 63px;
+}
+.section-about h1 {
+  padding-bottom: 16px;
+}
+.section-about p, .section-about h2 {
+  font-size: 18px;
+}
+
+footer {
+  background-color: #4D4D4D;
+  height: 400px;
+  margin-top: 50px;
+}
+
+.footer {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  color: #FFFFFF;
+  padding-top: 16px;
 }
 
 @media (max-width: 1280px) {
