@@ -1,12 +1,18 @@
+new Swiper ('.left',{
+    slidesPerView: 3,
+    spaceBetween: 30,
+    freeMode: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+})
+
+
 $('.right').slick({
 
 });
-$('.left').slick({
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    variableWidth: true
-});
+
 $('.offers').slick({
     infinite: true,
     slidesToShow: 5,

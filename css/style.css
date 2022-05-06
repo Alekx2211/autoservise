@@ -581,6 +581,11 @@ label {
   background-position-y: 27px;
 }
 
+.left__wrapper {
+  display: flex;
+  min-width: 0;
+}
+
 .popular__ser {
   width: 659px;
   height: 184px;

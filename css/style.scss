@@ -552,6 +552,10 @@ label {
     }
   }
 }
+.left__wrapper {
+  display: flex;
+  min-width: 0;
+}
 .popular {
   &__ser{
     width: 659px;
