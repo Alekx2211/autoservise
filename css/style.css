@@ -371,6 +371,8 @@ label {
   background-color: #BC342D;
   right: 10px;
   color: #FFFFFF;
+  border: none;
+  outline: none;
 }
 
 .calculation__raschet {
