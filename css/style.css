@@ -62,34 +62,35 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.header__text h1 {
+.header .text-top {
   color: #FFFFFF;
   margin: 0;
   font-size: 24px;
+  font-weight: 700;
+  padding-top: 5px;
 }
-.header__text p {
+.header .text-bottom {
   margin: 0;
   color: #FFFFFF;
   font-size: 14px;
+  font-weight: 400;
 }
-.header .bonus {
+
+.container-label {
   background-color: #FFFFFF;
   width: 154px;
   height: 60px;
   border-radius: 10px;
+  text-align: center;
+  padding-top: 13px;
 }
-.header .bonus__text {
-  position: absolute;
-  top: 48px;
-  left: 1491px;
-}
-.header .bonus__text h1 {
+
+.bonus {
   font-size: 18px;
   font-weight: 700;
-  line-height: 21.09px;
-  margin: 0;
+  line-height: 21px;
 }
-.header .bonus__text p {
+.bonus__text {
   font-size: 14px;
   font-weight: 500;
   line-height: 16.41px;
@@ -295,6 +296,8 @@ select {
   margin-right: 25px;
   border-radius: 5px;
   margin-top: 10px;
+  padding-left: 10px;
+  outline: none;
 }
 
 label {
@@ -557,7 +560,7 @@ label {
 }
 
 .services h1 {
-  margin-bottom: 21px;
+  margin-bottom: 15px;
 }
 .services__select {
   display: flex;
@@ -592,6 +595,7 @@ label {
   background-color: #fff;
   margin-right: 20px;
   border-radius: 10px;
+  margin-top: 15px;
 }
 
 .section-popular {
@@ -601,7 +605,7 @@ label {
 .top {
   display: flex;
   align-items: center;
-  height: 50px;
+  padding-top: 10px;
 }
 .top h1 {
   font-size: 18px;
@@ -609,7 +613,11 @@ label {
 }
 .top p {
   font-size: 14px;
-  padding-left: 240px;
+  padding-left: 228px;
+}
+
+.center {
+  padding-top: 6px;
 }
 
 .rating {
@@ -655,7 +663,8 @@ label {
 .bottom {
   display: flex;
   justify-content: right;
-  align-items: baseline;
+  align-items: center;
+  padding-top: 6px;
 }
 .bottom .img1 {
   padding-right: 28px;
@@ -665,6 +674,7 @@ label {
 }
 .bottom p {
   margin: 0;
+  padding-right: 7px;
 }
 
 .btm {
@@ -675,6 +685,22 @@ label {
   border-radius: 5px;
   background-color: #293747;
   color: #FFFFFF;
+  border: none;
+  outline: none;
+}
+
+.green {
+  color: #279615;
+  font-weight: 700;
+}
+
+.red {
+  color: #D92929;
+  font-weight: 700;
+}
+
+.section-blog {
+  padding-top: 10px;
 }
 
 .blog {
@@ -701,6 +727,10 @@ label {
   font-size: 14px;
   font-weight: 300;
 }
+.blog .name {
+  font-weight: 500;
+  font-size: 16px;
+}
 .blog .top1 {
   display: flex;
   justify-content: space-between;
@@ -719,6 +749,7 @@ label {
   text-decoration: none;
   font-size: 12px;
   color: #BC342D;
+  font-weight: 500;
 }
 
 .percent {
