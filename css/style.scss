@@ -552,9 +552,9 @@ label {
     }
   }
 }
-.left__wrapper {
-  display: flex;
-  min-width: 0;
+.left-container {
+  width: 600px;
+  height: 300px;
 }
 .popular {
   &__ser{

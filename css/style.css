@@ -581,9 +581,9 @@ label {
   background-position-y: 27px;
 }
 
-.left__wrapper {
-  display: flex;
-  min-width: 0;
+.left-container {
+  width: 600px;
+  height: 300px;
 }
 
 .popular__ser {
