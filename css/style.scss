@@ -88,7 +88,7 @@ header {
       }
     }
 .main-menu {
-  padding-top: 15px;
+  padding-top: 18px;
 }
 .block-left {
   width: 331px;
@@ -114,6 +114,9 @@ header {
     p{
       font-size: 24px;
       margin: 0;
+    }
+    img {
+      margin-right: 4px;
     }
   }
 }
@@ -150,37 +153,119 @@ header {
 .section-banner{
   margin-bottom: 49px;
 }
-.right {
-  width: 562px;
-  &__slider1 {
-    width: 562px;
-    height: 173px;
-    background-color: #293747;
-    border-radius: 10px;
-    p{
-      color: #fff;
-      padding-left: 15px;
-      font-weight: 300;
-      padding-top: 10px;
-      font-size: 18px;
+
+.container-right {
+position: relative;
+  .prev2 {
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/prev.png");
+    left: -30px;
+    top: 100px;
+    &::after {
+      content: 'f104';
+      color: #F4B860;
+    }
+    .fa-solid {
+      color: #FFFFFF;
     }
   }
-  &__slider2 {
-    width: 562px;
-    height: 173px;
-    background-color: #293747;
-    border-radius: 15px;
+  .next2 {
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/next.png");
+    right: -30px;
+    top: 100px;
+    &::after {
+      content: 'f104';
+      color: #FFFFFF;
+    }
+    .fa-solid {
+      color: #FFFFFF
+    }
   }
-  &__slider3 {
+  .right {
     width: 562px;
     height: 173px;
-    background-color: #293747;
-    border-radius: 15px;
+    &__slider1 {
+      width: 562px;
+      height: 173px;
+      background-color: #293747;
+      border-radius: 10px;
+      p{
+        color: #fff;
+        padding-left: 15px;
+        font-weight: 400;
+        padding-top: 10px;
+        font-size: 18px;
+      }
+    }
+    &__slider2 {
+      width: 562px;
+      height: 173px;
+      background-color: #293747;
+      border-radius: 15px;
+    }
+    &__slider3 {
+      width: 562px;
+      height: 173px;
+      background-color: #293747;
+      border-radius: 15px;
+    }
+  }
+  .bottom3 {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding-top: 0;
+    p{
+      font-size: 16px;
+    }
+    a {
+      color:#FFFFFF ;
+      font-weight: 500;
+      padding-right: 10px;
+    }
   }
 }
+.container-left {
+  position: relative;
+  .prev1 {
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/prev.png");
+    border-radius: 50%;
+    left: -30px;
+    top: 100px;
+    &::after {
+      content: 'f104';
+      color: #F4B860;
+    }
+    .fa-solid {
+      color: #FFFFFF;
+    }
+  }
+  .next1 {
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/next.png");
+    border-radius: 50%;
+    right: -30px;
+    top: 100px;
+    &::after {
+      content: 'f104';
+      color: #FFFFFF;
+    }
+    .fa-solid {
+    color: #FFFFFF
+    }
+  }
+}
+
 .left {
   width: 700px;
-  
+  height: 173px;
+
   &__slider1 {
     background-image: url("../img/frends.png");
     width: 173px;
@@ -188,7 +273,6 @@ header {
     background-position: center;
     background-color: #FFFFFF;
     background-repeat: no-repeat;
-    margin: 0 15px;
     border-radius: 10px;
 
   }
@@ -200,7 +284,6 @@ header {
     background-size: contain;
     background-position: center;
     background-color: #FFFFFF;
-    margin: 0 15px;
     border-radius: 10px;
   }
   &__slider3 {
@@ -211,7 +294,6 @@ header {
     background-size: contain;
     background-position: center;
     background-color: #FFFFFF;
-    margin: 0 15px;
     border-radius: 10px;
 
   }
@@ -222,7 +304,7 @@ header {
     background-position: center;
     background-color: #FFFFFF;
     background-repeat: no-repeat;
-    margin: 0 15px;
+
     border-radius: 10px;
 
   }
@@ -233,7 +315,6 @@ header {
     background-position: center;
     background-color: #FFFFFF;
     background-repeat: no-repeat;
-    margin: 0 15px;
     border-radius: 10px;
   }
   &__slider6 {
@@ -243,7 +324,6 @@ header {
     background-position: center;
     background-color: #FFFFFF;
     background-repeat: no-repeat;
-    margin: 0 15px;
     border-radius: 10px;
   }
 }
@@ -490,7 +570,7 @@ label {
 .gradient {
   height: 22px;
   background: linear-gradient(180deg, rgba(243, 156, 76, 0) 0%, #F39C4C 100%);
-  margin-top: 142px;
+  margin-top: 123px;
 }
 .gradient1 {
   height: 22px;
@@ -729,25 +809,12 @@ label {
   display: flex;
   justify-content: space-between;
   h1 {
-    padding-top: 15px;
+    padding-top: 10px;
     padding-left: 15px;
     color: #fff;
   }
 }
-.bottom3 {
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-  padding-top: 10px;
-  p{
-    font-size: 16px;
-  }
-  a {
-    color:#FFFFFF ;
-    font-weight: 500;
-    padding-right: 10px;
-  }
-}
+
 .fara, .marca, .model {
   display: flex;
   flex-direction: column;
