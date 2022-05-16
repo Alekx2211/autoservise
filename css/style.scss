@@ -494,6 +494,37 @@ label {
     margin-bottom: 10px;
   }
 }
+.offer {
+  position: relative;
+  .prev3 {
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/prev.png");
+    left: -30px;
+    top: 100px;
+    &::after {
+      content: 'f104';
+      color: #F4B860;
+    }
+    .fa-solid {
+      color: #FFFFFF;
+    }
+  }
+  .next3 {
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/next.png");
+    right: -30px;
+    top: 100px;
+    &::after {
+      content: 'f104';
+      color: #FFFFFF;
+    }
+    .fa-solid {
+      color: #FFFFFF
+    }
+  }
+}
 .offers {
   text-align: right;
   p {
@@ -632,9 +663,41 @@ label {
     }
   }
 }
-.left-container {
-  width: 600px;
-  height: 300px;
+.left__wrapper {
+  display: flex;
+  min-width: 0;
+}
+.container-popular {
+  position: relative;
+  .prev4 {
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/prev.png");
+    left: -30px;
+    top: 125px;
+    &::after {
+      content: 'f104';
+      color: #F4B860;
+    }
+    .fa-solid {
+      color: #FFFFFF;
+    }
+  }
+  .next4 {
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/next.png");
+    right: -30px;
+    top: 125px;
+    &::after {
+      content: 'f104';
+      color: #FFFFFF;
+    }
+    .fa-solid {
+      color: #FFFFFF
+    }
+  }
+
 }
 .popular {
   &__ser{

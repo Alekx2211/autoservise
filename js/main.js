@@ -29,8 +29,22 @@ var swiper3 = new Swiper(".offers", {
         clickable: true,
     },
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".next3",
+        prevEl: ".prev3",
+    },
+    loop: true,
+});
+var swiper3 = new Swiper(".popular", {
+    slidesPerView: 2,
+    spaceBetween: 15,
+
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".next4",
+        prevEl: ".prev4",
     },
     loop: true,
 });
