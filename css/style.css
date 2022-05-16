@@ -374,9 +374,8 @@ select {
   margin-right: 25px;
   border-radius: 5px;
   margin-top: 10px;
-  padding-left: 5px;
+  padding-left: 10px;
   outline: none;
-  font-size: 16px;
 }
 
 label {
@@ -667,7 +666,7 @@ label {
 }
 
 .section-services {
-  margin-top: 75px;
+  margin-top: 65px;
 }
 
 .services h1 {
@@ -707,7 +706,7 @@ label {
   width: 16px;
   height: 16px;
   background-image: url("../img/prev.png");
-  left: -20px;
+  left: -30px;
   top: 125px;
 }
 .container-popular .prev4::after {
@@ -721,7 +720,7 @@ label {
   width: 16px;
   height: 16px;
   background-image: url("../img/next.png");
-  right: -20px;
+  right: -30px;
   top: 125px;
 }
 .container-popular .next4::after {
@@ -761,7 +760,6 @@ label {
 
 .center {
   padding-top: 6px;
-  padding-left: 10px;
 }
 
 .rating {
@@ -784,16 +782,8 @@ label {
   text-align: left;
   margin: 5px;
 }
-.center .otziv {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0em;
-  text-align: left;
-}
 
-.top, .bottom {
+.top, .center, .bottom {
   margin-left: 14px;
   margin-right: 13px;
 }
@@ -802,14 +792,13 @@ label {
   display: flex;
   justify-content: right;
   align-items: center;
-  padding-top: 27px;
-  padding-bottom: 13px;
+  padding-top: 6px;
 }
 .bottom .img1 {
-  padding-right: 12px;
+  padding-right: 28px;
 }
 .bottom .img2 {
-  padding-right: 22px;
+  padding-right: 28px;
 }
 .bottom p {
   margin: 0;
@@ -839,7 +828,7 @@ label {
 }
 
 .section-blog {
-  padding-top: 2px;
+  padding-top: 10px;
 }
 
 .blog {
@@ -919,7 +908,7 @@ label {
   margin-right: 21px;
 }
 
-.mod, .marc, .phara {
+.mod, .marc, .far {
   padding: 0;
   margin: 0;
   font-size: 14px;
@@ -932,16 +921,13 @@ label {
 }
 
 .section-about {
-  margin-top: 43px;
+  margin-top: 63px;
 }
 .section-about h1 {
   padding-bottom: 16px;
 }
-.section-about p {
-  font-size: 16px;
-}
-.section-about h2 {
-  font-size: 20px;
+.section-about p, .section-about h2 {
+  font-size: 18px;
 }
 
 footer {
@@ -965,7 +951,6 @@ footer {
   }
 
   .header .bonus__text {
-    position: absolute;
     top: 48px;
     left: 1097px;
   }
@@ -979,7 +964,39 @@ footer {
   }
 
   .calculation__raschet {
-    width: 100%;
+    width: 50%;
+  }
+  .calculation__raschet .text {
+    width: 540px;
+  }
+  .calculation__raschet .text .textarea {
+    width: 540px;
+  }
+  .calculation .work {
+    width: 580px;
+  }
+  .calculation .work .crug {
+    padding-top: 10px;
+  }
+  .calculation .work .line {
+    margin-left: 20px;
+  }
+  .calculation .work .four {
+    right: 11px;
+  }
+  .calculation .work .there {
+    top: 170px;
+  }
+
+  .blog__history {
+    width: 580px;
+  }
+
+  .container-popular .popular__ser {
+    height: 184px;
+  }
+  .container-popular .popular__ser .top p {
+    padding-left: 140px;
   }
 }
 
