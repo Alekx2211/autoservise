@@ -32,19 +32,11 @@ var swiper3 = new Swiper(".offers", {
     },
     slidesPerView: 7.5,
     spaceBetween: 15,
-<<<<<<< HEAD
   responsive:{
         1280:{
             slidesPerView: 6.5,
         },
   },
-=======
-    breakpoints: {
-        1280: {
-            slidesPerView: 6.5,
-        }
-    },
->>>>>>> 8dcf1cd580b177dac217ff27bffc2476eda03429
 
     navigation: {
         nextEl: ".next3",
