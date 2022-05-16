@@ -2,6 +2,11 @@
 var slider2 = new Swiper(".left", {
     slidesPerView: 4,
     spaceBetween: 15,
+    breakpoints: {
+        1280: {
+            slidesPerView: 5,
+        }
+    },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -23,6 +28,11 @@ var slider1 = new Swiper(".right", {
 var swiper3 = new Swiper(".offers", {
     slidesPerView: 7.5,
     spaceBetween: 15,
+    breakpoints: {
+        1280: {
+            slidesPerView: 6.5,
+        }
+    },
 
     pagination: {
         el: ".swiper-pagination",
