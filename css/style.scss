@@ -361,8 +361,9 @@ select {
   margin-right: 25px;
   border-radius: 5px;
   margin-top: 10px;
-  padding-left: 10px;
+  padding-left: 5px;
   outline: none;
+  font-size: 16px;
 }
 label {
   margin-bottom: 16px;
@@ -634,7 +635,7 @@ label {
   margin-top: 142px;
 }
 .section-services {
-  margin-top: 65px;
+  margin-top: 75px;
 }
 .services {
   h1{
@@ -673,7 +674,7 @@ label {
     width: 16px;
     height: 16px;
     background-image: url("../img/prev.png");
-    left: -30px;
+    left: -20px;
     top: 125px;
     &::after {
       content: 'f104';
@@ -687,7 +688,7 @@ label {
     width: 16px;
     height: 16px;
     background-image: url("../img/next.png");
-    right: -30px;
+    right: -20px;
     top: 125px;
     &::after {
       content: 'f104';
@@ -731,6 +732,7 @@ label {
 }
 .center {
   padding-top: 6px;
+  padding-left: 10px;
 }
 .rating {
   display: flex;
@@ -739,21 +741,8 @@ label {
   padding-left: 15px;
 }
 .rating__item {
-  font-size: 40px;
   color: #d2d6d9;
   cursor: pointer;
-}
-.rating__item:hover,
-.rating__item:hover ~ .rating__item {
-  color: #BC342D;
-}
-
-.rating[data-total-value="1"] .rating__item:nth-child(n+5),
-.rating[data-total-value="2"] .rating__item:nth-child(n+4),
-.rating[data-total-value="3"] .rating__item:nth-child(n+3),
-.rating[data-total-value="4"] .rating__item:nth-child(n+2),
-.rating[data-total-value="5"] .rating__item:nth-child(n+1) {
-  color: #BC342D;
 }
 .center {
   p{
@@ -763,10 +752,19 @@ label {
     letter-spacing: 0em;
     text-align: left;
     margin: 5px;
+  }
+  .otziv {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
 
   }
 }
-.top ,.center,.bottom {
+
+.top ,.bottom {
   margin-left: 14px;
   margin-right: 13px;
 }
@@ -774,12 +772,13 @@ label {
   display: flex;
   justify-content: right;
   align-items: center;
-  padding-top: 6px;
+  padding-top: 27px;
+  padding-bottom: 13px;
   .img1 {
-    padding-right: 28px;
+    padding-right: 12px;
   }
   .img2 {
-    padding-right: 28px;
+    padding-right: 22px;
   }
   p {
     margin: 0;
@@ -807,7 +806,7 @@ label {
 
 }
 .section-blog {
-  padding-top: 10px;
+  padding-top: 2px;
 }
 .blog {
   display: flex;
@@ -884,7 +883,7 @@ label {
   width: 250px;
   margin-right: 21px;
 }
-.mod, .marc, .far {
+.mod, .marc, .phara {
   padding: 0;
   margin: 0;
   font-size: 14px;
@@ -895,12 +894,16 @@ label {
   margin-top: 10px;
 }
 .section-about {
-  margin-top: 63px;
+  margin-top: 43px;
   h1{
     padding-bottom: 16px;
+
   }
-  p,h2 {
-    font-size: 18px;
+  p {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 20px;
   }
 }
 footer {

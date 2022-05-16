@@ -374,8 +374,9 @@ select {
   margin-right: 25px;
   border-radius: 5px;
   margin-top: 10px;
-  padding-left: 10px;
+  padding-left: 5px;
   outline: none;
+  font-size: 16px;
 }
 
 label {
@@ -666,7 +667,7 @@ label {
 }
 
 .section-services {
-  margin-top: 65px;
+  margin-top: 75px;
 }
 
 .services h1 {
@@ -706,7 +707,7 @@ label {
   width: 16px;
   height: 16px;
   background-image: url("../img/prev.png");
-  left: -30px;
+  left: -20px;
   top: 125px;
 }
 .container-popular .prev4::after {
@@ -720,7 +721,7 @@ label {
   width: 16px;
   height: 16px;
   background-image: url("../img/next.png");
-  right: -30px;
+  right: -20px;
   top: 125px;
 }
 .container-popular .next4::after {
@@ -760,6 +761,7 @@ label {
 
 .center {
   padding-top: 6px;
+  padding-left: 10px;
 }
 
 .rating {
@@ -770,22 +772,8 @@ label {
 }
 
 .rating__item {
-  font-size: 40px;
   color: #d2d6d9;
   cursor: pointer;
-}
-
-.rating__item:hover,
-.rating__item:hover ~ .rating__item {
-  color: #BC342D;
-}
-
-.rating[data-total-value="1"] .rating__item:nth-child(n+5),
-.rating[data-total-value="2"] .rating__item:nth-child(n+4),
-.rating[data-total-value="3"] .rating__item:nth-child(n+3),
-.rating[data-total-value="4"] .rating__item:nth-child(n+2),
-.rating[data-total-value="5"] .rating__item:nth-child(n+1) {
-  color: #BC342D;
 }
 
 .center p {
@@ -796,8 +784,16 @@ label {
   text-align: left;
   margin: 5px;
 }
+.center .otziv {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
 
-.top, .center, .bottom {
+.top, .bottom {
   margin-left: 14px;
   margin-right: 13px;
 }
@@ -806,13 +802,14 @@ label {
   display: flex;
   justify-content: right;
   align-items: center;
-  padding-top: 6px;
+  padding-top: 27px;
+  padding-bottom: 13px;
 }
 .bottom .img1 {
-  padding-right: 28px;
+  padding-right: 12px;
 }
 .bottom .img2 {
-  padding-right: 28px;
+  padding-right: 22px;
 }
 .bottom p {
   margin: 0;
@@ -842,7 +839,7 @@ label {
 }
 
 .section-blog {
-  padding-top: 10px;
+  padding-top: 2px;
 }
 
 .blog {
@@ -922,7 +919,7 @@ label {
   margin-right: 21px;
 }
 
-.mod, .marc, .far {
+.mod, .marc, .phara {
   padding: 0;
   margin: 0;
   font-size: 14px;
@@ -935,13 +932,16 @@ label {
 }
 
 .section-about {
-  margin-top: 63px;
+  margin-top: 43px;
 }
 .section-about h1 {
   padding-bottom: 16px;
 }
-.section-about p, .section-about h2 {
-  font-size: 18px;
+.section-about p {
+  font-size: 16px;
+}
+.section-about h2 {
+  font-size: 20px;
 }
 
 footer {
