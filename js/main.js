@@ -1,12 +1,8 @@
 
 var slider2 = new Swiper(".left", {
-    slidesPerView: 4,
+    slidesPerView: 2,
     spaceBetween: 15,
-    breakpoints: {
-        1280: {
-            slidesPerView: 5,
-        }
-    },
+
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -16,6 +12,15 @@ var slider2 = new Swiper(".left", {
         prevEl: ".prev1",
     },
     loop: true,
+    breakpoints: {
+        1200: {
+            slidesPerView: 4,
+        },
+        320: {
+            slidesPerView: 5,
+        },
+    },
+
 });
 var slider1 = new Swiper(".right", {
     slidesPerView: 1,
@@ -32,11 +37,15 @@ var swiper3 = new Swiper(".offers", {
     },
     slidesPerView: 7.5,
     spaceBetween: 15,
-  responsive:{
-        1280:{
-            slidesPerView: 6.5,
+        breakpoints: {
+            1200:{
+                slidesPerView: 6.5,
+            },
+            320:{
+                slidesPerView: 2,
+            },
         },
-  },
+
 
     navigation: {
         nextEl: ".next3",

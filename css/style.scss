@@ -363,11 +363,13 @@ select {
   margin-top: 10px;
   padding-left: 10px;
   outline: none;
+  font-size: 16px;
 }
 label {
   margin-bottom: 16px;
   margin-right: 10px;
   padding-left: 25px;
+  font-size: 16px;
 }
 .radio-box{
  display: none;
@@ -402,7 +404,8 @@ label {
   border-radius: 5px;
   font-size: 12px;
   color: white;
-  align-items: center;;
+  align-items: center;
+  padding-left: 18px;
 }
 .img-files input {
   display: none;
@@ -871,7 +874,7 @@ label {
   width: 250px;
   margin-right: 21px;
 }
-.mod, .marc, .far {
+.mod, .marc, .fhar {
   padding: 0;
   margin: 0;
   font-size: 14px;
